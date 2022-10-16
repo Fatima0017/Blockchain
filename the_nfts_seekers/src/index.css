@@ -1,0 +1,133 @@
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.cards {
+
+  width: 100em;
+  /* float: left; */
+
+}
+
+.cards-container{
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+ 
+}
+.card {
+  margin: 6%;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: rgba(255, 255, 255, 0.315);
+  width: 21.25%;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.card {
+  margin: 6%;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: rgba(255, 255, 255, 0.315);
+  /* width: 21.25%; */
+  width: 15em;
+  border-radius: 12px;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+  float: left;
+}
+
+
+.card__img {
+  width: 100%;
+  height: 235px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05, 1.05);
+}
+
+.card__info {
+  background-color: #fff;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 16px 24px 24px 24px;
+  background-color: #fff;
+}
+
+.card__title {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+  background-color: #fff;
+  text-transform: capitalize;
+
+}
+
+.card_btn {
+  padding: 5px 8px;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #868686;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.card__category {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #868686;
+  background-color: #fff;
+}
+
+.callout-info {
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+
+.bkg {
+  background-image: url("/home/fatima/reactApps/the_nfts_seekers/public/background.jpg");
+  width: 100%;
+  height: 100vh;
+}
+
+.bgcolor {
+  background-color: rgba(167, 243, 230, 0.753);
+  height: 10000vh;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
